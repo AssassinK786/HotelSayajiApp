@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/welcome"
+    tools:context=".restaurantActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the below option"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost in ₹/Plate and Inclusive of GST"
+        android:textSize="17.5sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegetarian cuisine:250"
+        android:layout_marginTop="10sp"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Non-Vegetarian cuisine:450"
+        android:textSize="25sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mixed cuisine: 350"
+        android:textSize="26sp"/>
+
+    <TextView
+        android:id="@+id/Text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jain cuisine:275"
+        android:textSize="26sp"/>
+
+
+ <LinearLayout
+     android:id="@+id/linear_lay"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:gravity="center"
+     android:layout_margin="10dp"
+     android:layout_below="@id/Text4">
+
+  <Button
+      android:id="@+id/vg"
+      android:layout_width="65sp"
+      android:layout_height="wrap_content"
+      android:text="1"
+      android:textSize="24sp"/>
+
+  <Button
+      android:id="@+id/nvg"
+      android:layout_width="65sp"
+      android:layout_height="wrap_content"
+      android:text="2"
+      android:textSize="24sp"/>
+
+  <Button
+      android:id="@+id/mc"
+      android:layout_width="65sp"
+      android:layout_height="wrap_content"
+      android:text="3"
+      android:textSize="24sp"/>
+
+  <Button
+      android:id="@+id/jc"
+      android:layout_width="65sp"
+      android:layout_height="wrap_content"
+      android:text="4"
+      android:textSize="24sp"/>
+
+ </LinearLayout>
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="How many Plates do you want ?"
+     android:textSize="24sp"/>
+
+ <EditText
+     android:id="@+id/ET_num2"
+     android:layout_margin="20dp"
+     android:layout_width="50sp"
+     android:inputType="number"
+     android:layout_height="wrap_content"/>
+ <Button
+     android:id="@+id/restt"
+     android:layout_width="250sp"
+     android:layout_height="65sp"
+     android:padding="15dp"
+     android:text="ADD The Amount in the Bill"/>
+
+    <TextView
+        android:id="@+id/txt_rest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear_lay"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+
+</LinearLayout>
