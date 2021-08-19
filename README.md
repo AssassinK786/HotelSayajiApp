@@ -1,4 +1,4 @@
-<h1 align="center"> New Hotel App </h1>
+<h1 align="center"> Hotel Sayaji App </h1>
 
 It is a Simple Hotel App using **Java Language** with the use of the Principle of **Inheritance & Encapsulation**
 
